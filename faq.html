@@ -3,41 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>FAQ - Larry the Tiny Diamond</title>
-    <!-- Meta tags for responsiveness -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS (Using Bootstrap 5) -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Bootstrap Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/quartz/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
 
     <!-- Favicon (Optional) -->
     <!-- <link rel="icon" href="assets/favicon.ico"> -->
 </head>
 <body>
-    <!-- Main Container -->
-    <div class="container-fluid g-0">
-        <div class="row g-0" style="height: 100vh;">
-            <!-- Sidebar -->
-            <nav id="sidebar" class="col-md-2 bg-light d-flex flex-column">
-                <div class="text-center my-4">
-                    <img src="assets/logo.png" alt="Larry Logo" class="img-fluid" style="max-width: 80%;">
-                </div>
-                <ul class="nav flex-column flex-grow-1">
+    <header class="optional-header bg-dark text-center py-1">
+        under(water)development
+    </header>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
                     
                     <li class="nav-item">
                         <a class="nav-link " href="index.html">
                             <i class="bi-house-fill me-2"></i>Home
-                        </a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link " href="merchandise.html">
-                            <i class="bi-cart-fill me-2"></i>Merchandise
                         </a>
                     </li>
                     
@@ -54,18 +47,15 @@
                     </li>
                     
                 </ul>
-            </nav>
-
-            <!-- Right Side -->
-            <div class="col-md-10 d-flex flex-column">
-                <!-- Optional Header (5%) -->
-                <header class="optional-header text-center py-1">
-                    In development
-                </header>
-
-                <!-- Content Area (90%) -->
-                <main class="flex-grow-1">
-                    
+            </div>
+        </div>
+    </nav>
+    <div class="text-center">
+        <img src="assets/logo.png" alt="Larry the Tiny Diamond" class="img-fluid" style="max-width: 160px;">
+    </div>
+    <div class="container-fluid">
+        <main class="py-4">
+            
 <div class="container py-4">
     <h2>Frequently Asked Questions</h2>
     <div class="accordion mt-4" id="faqAccordion">
@@ -78,7 +68,7 @@
             </h2>
             <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                    Larry was born on June 5, 2020.
+                    Larry was adopted on August 11th of 2024, and was born approximately 3 months earlier - so sometime around May..
                 </div>
             </div>
         </div>
@@ -91,7 +81,7 @@
             </h2>
             <div id="collapse2" class="accordion-collapse collapse " aria-labelledby="heading2" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                    Larry loves worms and small aquatic creatures.
+                    Larry eats soft aquatic pellets, and he LOVES bloodworms.
                 </div>
             </div>
         </div>
@@ -112,12 +102,12 @@
         <div class="accordion-item">
             <h2 class="accordion-header" id="heading4">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                    What does Larry like to eat?
+                    When does he sleep?
                 </button>
             </h2>
             <div id="collapse4" class="accordion-collapse collapse " aria-labelledby="heading4" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                    He enjoys a variety of aquatic foods.
+                    Larry often takes little naps, but he&#39;s not really sleeping as deep as you readers usually do.
                 </div>
             </div>
         </div>
@@ -125,23 +115,10 @@
         <div class="accordion-item">
             <h2 class="accordion-header" id="heading5">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                    When does he sleep?
-                </button>
-            </h2>
-            <div id="collapse5" class="accordion-collapse collapse " aria-labelledby="heading5" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">
-                    Larry sleeps during the day and is active at night.
-                </div>
-            </div>
-        </div>
-        
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="heading6">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
                     Does he recognize his family members and friends?
                 </button>
             </h2>
-            <div id="collapse6" class="accordion-collapse collapse " aria-labelledby="heading6" data-bs-parent="#faqAccordion">
+            <div id="collapse5" class="accordion-collapse collapse " aria-labelledby="heading5" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
                     Yes, Larry recognizes familiar faces.
                 </div>
@@ -149,14 +126,27 @@
         </div>
         
         <div class="accordion-item">
+            <h2 class="accordion-header" id="heading6">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                    What are Larry&#39;s hobbies?
+                </button>
+            </h2>
+            <div id="collapse6" class="accordion-collapse collapse " aria-labelledby="heading6" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Swimming, exploring his aquarium, and playing hide and seek.
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
             <h2 class="accordion-header" id="heading7">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
-                    What are Larry&#39;s hobbies?
+                    Why The Tiny Diamond?
                 </button>
             </h2>
             <div id="collapse7" class="accordion-collapse collapse " aria-labelledby="heading7" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                    Swimming and exploring his aquarium.
+                    Because he shines bright like a diamond! (but yes, also that cute troll..)
                 </div>
             </div>
         </div>
@@ -164,12 +154,12 @@
         <div class="accordion-item">
             <h2 class="accordion-header" id="heading8">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
-                    Why The Little Diamond?
+                    When does Larry exercise?
                 </button>
             </h2>
             <div id="collapse8" class="accordion-collapse collapse " aria-labelledby="heading8" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                    Because he shines bright like a diamond!
+                    Larry is a bit lazy by nature, though he sometimes exercises swimming on the way to grab food.
                 </div>
             </div>
         </div>
@@ -177,12 +167,12 @@
         <div class="accordion-item">
             <h2 class="accordion-header" id="heading9">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
-                    When does Larry exercise?
+                    Can Larry go out of his aquarium?
                 </button>
             </h2>
             <div id="collapse9" class="accordion-collapse collapse " aria-labelledby="heading9" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                    He exercises every evening.
+                    He can go out of the water for short periods of time, but axolotls need water to survive.
                 </div>
             </div>
         </div>
@@ -190,12 +180,12 @@
         <div class="accordion-item">
             <h2 class="accordion-header" id="heading10">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
-                    Can Larry go out of his aquarium?
+                    Does Larry drive?
                 </button>
             </h2>
             <div id="collapse10" class="accordion-collapse collapse " aria-labelledby="heading10" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                    No, he needs water to survive.
+                    Not yet, but he&#39;s learning theory!
                 </div>
             </div>
         </div>
@@ -208,7 +198,7 @@
             </h2>
             <div id="collapse11" class="accordion-collapse collapse " aria-labelledby="heading11" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                    Not yet, but he&#39;s learning!
+                    He prefers watching games..
                 </div>
             </div>
         </div>
@@ -229,12 +219,12 @@
         <div class="accordion-item">
             <h2 class="accordion-header" id="heading13">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
-                    Does Larry surf the dark web?
+                    Does Larry surf?
                 </button>
             </h2>
             <div id="collapse13" class="accordion-collapse collapse " aria-labelledby="heading13" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                    Absolutely not!
+                    Only when we&#39;re not watching.
                 </div>
             </div>
         </div>
@@ -242,12 +232,12 @@
         <div class="accordion-item">
             <h2 class="accordion-header" id="heading14">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
-                    Does Larry have a driving license?
+                    How does Larry even lift?
                 </button>
             </h2>
             <div id="collapse14" class="accordion-collapse collapse " aria-labelledby="heading14" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                    No, he prefers swimming.
+                    He could lift tiny pebbles in his tank if he wanted, but why would he when he can just rest instead?
                 </div>
             </div>
         </div>
@@ -255,36 +245,10 @@
         <div class="accordion-item">
             <h2 class="accordion-header" id="heading15">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
-                    What music does Larry like the most?
-                </button>
-            </h2>
-            <div id="collapse15" class="accordion-collapse collapse " aria-labelledby="heading15" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">
-                    Classical music soothes him.
-                </div>
-            </div>
-        </div>
-        
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="heading16">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
-                    How does Larry even lift?
-                </button>
-            </h2>
-            <div id="collapse16" class="accordion-collapse collapse " aria-labelledby="heading16" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">
-                    He lifts tiny pebbles in his tank.
-                </div>
-            </div>
-        </div>
-        
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="heading17">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
                     How fast can Larry run?
                 </button>
             </h2>
-            <div id="collapse17" class="accordion-collapse collapse " aria-labelledby="heading17" data-bs-parent="#faqAccordion">
+            <div id="collapse15" class="accordion-collapse collapse " aria-labelledby="heading15" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
                     He swims faster than he runs.
                 </div>
@@ -292,12 +256,12 @@
         </div>
         
         <div class="accordion-item">
-            <h2 class="accordion-header" id="heading18">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
+            <h2 class="accordion-header" id="heading16">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
                     What cereal is Larry&#39;s favorite?
                 </button>
             </h2>
-            <div id="collapse18" class="accordion-collapse collapse " aria-labelledby="heading18" data-bs-parent="#faqAccordion">
+            <div id="collapse16" class="accordion-collapse collapse " aria-labelledby="heading16" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
                     He doesn&#39;t eat cereal, but he likes the look of Cheerios.
                 </div>
@@ -305,14 +269,14 @@
         </div>
         
         <div class="accordion-item">
-            <h2 class="accordion-header" id="heading19">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse19" aria-expanded="false" aria-controls="collapse19">
-                    Does Larry like cats or dogs more?
+            <h2 class="accordion-header" id="heading17">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+                    What&#39;s Larry&#39;s favorite day of the week??
                 </button>
             </h2>
-            <div id="collapse19" class="accordion-collapse collapse " aria-labelledby="heading19" data-bs-parent="#faqAccordion">
+            <div id="collapse17" class="accordion-collapse collapse " aria-labelledby="heading17" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                    He is fond of all animals!
+                    Friday.
                 </div>
             </div>
         </div>
@@ -320,59 +284,45 @@
     </div>
 </div>
 
-                </main>
-
-                <!-- Footer (5%) -->
-                <footer class="footer text-center py-2">
-                    <div class="social-icons mb-2">
-                        <h6>Connect with Larry</h6>
-                        <div class="d-flex justify-content-center">
-                            
-                            <a href="https://x.com/larrytnydiamond" class="btn btn-link m-1" target="_blank" title="X">
-                                <i class="bi-twitter fs-4"></i>
-                            </a>
-                            
-                            <a href="https://youtube.com/larrythetinydiamond" class="btn btn-link m-1" target="_blank" title="YouTube">
-                                <i class="bi-youtube fs-4"></i>
-                            </a>
-                            
-                            <a href="https://facebook.com/larrythetinydiamond" class="btn btn-link m-1" target="_blank" title="Facebook">
-                                <i class="bi-facebook fs-4"></i>
-                            </a>
-                            
-                            <a href="https://twitch.tv/larrythetinydiamond" class="btn btn-link m-1" target="_blank" title="Twitch">
-                                <i class="bi-twitch fs-4"></i>
-                            </a>
-                            
-                            <a href="https://tiktok.com/@larrythetinydiamond" class="btn btn-link m-1" target="_blank" title="TikTok">
-                                <i class="bi-tiktok fs-4"></i>
-                            </a>
-                            
-                            <a href="https://instagram.com/larrythetinydiamond" class="btn btn-link m-1" target="_blank" title="Instagram">
-                                <i class="bi-instagram fs-4"></i>
-                            </a>
-                            
-                            <a href="https://kick.com/larrythetinydiamond" class="btn btn-link m-1" target="_blank" title="Kick">
-                                <i class="bi-broadcast fs-4"></i>
-                            </a>
-                            
-                            <a href="https://trovo.live/larrythetinydiamond" class="btn btn-link m-1" target="_blank" title="Trovo">
-                                <i class="bi-joystick fs-4"></i>
-                            </a>
-                            
-                            <a href="mailto:larry@larrythetinydiamond.com" class="btn btn-link m-1" target="_blank" title="Email">
-                                <i class="bi-envelope-fill fs-4"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                    <span class="text-muted">&copy; 2024 Larry the Tiny Diamond</span>
-                </footer>
-            </div>
-        </div>
+        </main>
     </div>
 
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <footer class="footer text-center py-2">
+        <div class="social-icons mb-2">
+            <h6>Connect with Larry</h6>
+            <div class="d-flex justify-content-center">
+                
+                <a href="https://x.com/larrytnydiamond" class="btn btn-link m-1" target="_blank" title="X">
+                    <i class="bi-twitter-x fs-4"></i>
+                </a>
+                
+                <a href="https://youtube.com/larrythetinydiamond" class="btn btn-link m-1" target="_blank" title="YouTube">
+                    <i class="bi-youtube fs-4"></i>
+                </a>
+                
+                <a href="https://instagram.com/larrythetinydiamond" class="btn btn-link m-1" target="_blank" title="Instagram">
+                    <i class="bi-instagram fs-4"></i>
+                </a>
+                
+                <a href="https://twitch.tv/larrythetinydiamond" class="btn btn-link m-1" target="_blank" title="Twitch">
+                    <i class="bi-twitch fs-4"></i>
+                </a>
+                
+                <a href="https://facebook.com/larrythetinydiamond" class="btn btn-link m-1" target="_blank" title="Facebook">
+                    <i class="bi-facebook fs-4"></i>
+                </a>
+                
+                <a href="https://tiktok.com/@larrythetinydiamond" class="btn btn-link m-1" target="_blank" title="TikTok">
+                    <i class="bi-tiktok fs-4"></i>
+                </a>
+                
+                <a href="mailto:larry@larrythetinydiamond.com" class="btn btn-link m-1" target="_blank" title="Email">
+                    <i class="bi-envelope-fill fs-4"></i>
+                </a>
+                
+            </div>
+        </div>
+        <span class="text-muted">&copy; 2024 Larry the Tiny Diamond</span>
+    </footer>
 </body>
 </html>
